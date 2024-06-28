@@ -1,0 +1,14 @@
+.rodape {
+    padding: 2.0rem 2.4rem;
+    background-color: var(--cor-principal);
+}
+
+.rodape__lista {
+    display: flex;
+    gap: 2.0rem;
+}
+
+.rodape__lista__item__link {
+    color: var(--cor-secundaria);
+    font-size: 1.3rem;
+}
