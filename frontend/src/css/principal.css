@@ -27,3 +27,20 @@
     border-radius: 2.4rem;
     text-align: center;
 }
+
+@media screen and (min-width: 728px) {
+    .principal {
+        padding: 3rem 6rem 4rem 6rem;
+    }
+
+    .principal__titulo {
+        font-size: 9.0rem;
+        line-height: 10rem;
+    }
+}
+
+@media screen and (min-width: 904px) {
+    .principal__botao {
+        background: var(--cor-principal);
+    }
+}

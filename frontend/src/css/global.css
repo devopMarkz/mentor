@@ -5,8 +5,10 @@
 :root {
     --cor-principal: #000000;
     --cor-secundaria: #FFFFFF;
+    --cor-links-rodape: #6b6b6b;
 
     --cor-botao-secundario: #1a8917;
+    --cor-botao-secundario2: #191919;
 
     --cor-de-fundo: #f7f4ed;
 

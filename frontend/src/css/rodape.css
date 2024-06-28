@@ -1,11 +1,24 @@
 .rodape {
-    padding: 2.0rem 2.4rem;
+    padding: 2.5rem 5%;
     background-color: var(--cor-principal);
 }
 
 .rodape__lista {
     display: flex;
     gap: 2.0rem;
+}
+
+.rodape__lista__item:nth-child(1) {
+    order: 3;
+}
+.rodape__lista__item:nth-child(3) {
+    order: 1;
+}
+.rodape__lista__item:nth-child(7) {
+    order: 8;
+}
+.rodape__lista__item:nth-child(8) {
+    order: 7;
 }
 
 .rodape__lista__item__link {
@@ -15,4 +28,73 @@
 
 .rodape__lista__item__link:hover {
     border-bottom: solid var(--cor-secundaria) 1px;
+}
+
+.rodape__lista__item:nth-child(2),
+.rodape__lista__item:nth-child(4),
+.rodape__lista__item:nth-child(5),
+.rodape__lista__item:nth-child(6),
+.rodape__lista__item:nth-child(9),
+.rodape__lista__item:nth-child(10) {
+    display: none;
+}
+
+@media screen and (min-width: 728px) {
+    .rodape {
+        padding: 2.5rem 6rem;
+    }
+}
+
+@media screen and (min-width: 904px) {
+    .rodape__lista__item:nth-child(2),
+    .rodape__lista__item:nth-child(4),
+    .rodape__lista__item:nth-child(5),
+    .rodape__lista__item:nth-child(6),
+    .rodape__lista__item:nth-child(9),
+    .rodape__lista__item:nth-child(10) {
+        display: block;
+    }
+
+    .rodape {
+        padding: 2.5rem 6rem;
+        background-color: transparent;
+        border-top: solid var(--cor-principal) 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape__lista__item:nth-child(1) {
+        order: 1;
+    }
+    .rodape__lista__item:nth-child(2) {
+        order: 2;
+    }
+    .rodape__lista__item:nth-child(3) {
+        order: 3;
+    }
+    .rodape__lista__item:nth-child(4) {
+        order: 4;
+    }
+    .rodape__lista__item:nth-child(5) {
+        order: 5;
+    }
+    .rodape__lista__item:nth-child(6) {
+        order: 6;
+    }
+    .rodape__lista__item:nth-child(7) {
+        order: 7;
+    }
+    .rodape__lista__item:nth-child(8) {
+        order: 8;
+    }
+    .rodape__lista__item:nth-child(9) {
+        order: 9;
+    }
+    .rodape__lista__item:nth-child(10) {
+        order: 10;
+    }
+
+    .rodape__lista__item__link {
+        color: var(--cor-links-rodape);
+    }
 }
