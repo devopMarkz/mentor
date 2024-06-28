@@ -21,8 +21,11 @@
 }
 
 body {
+    height: 100vh;
     background: var(--cor-de-fundo);
     font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 a, ul {
