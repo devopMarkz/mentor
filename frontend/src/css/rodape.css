@@ -12,3 +12,7 @@
     color: var(--cor-secundaria);
     font-size: 1.3rem;
 }
+
+.rodape__lista__item__link:hover {
+    border-bottom: solid var(--cor-secundaria) 1px;
+}
